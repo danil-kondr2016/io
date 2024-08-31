@@ -1,5 +1,8 @@
 #define _CRT_SECURE_NO_WARNINGS
 
+#undef _FILE_OFFSET_BITS
+#define _FILE_OFFSET_BITS 64
+
 #include <io/io.h>
 
 #include "io_local.h"
